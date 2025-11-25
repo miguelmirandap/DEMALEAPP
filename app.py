@@ -21,7 +21,6 @@ from sklearn.model_selection import KFold, StratifiedKFold, learning_curve
 from sklearn.inspection import permutation_importance, PartialDependenceDisplay
 import seaborn as sns
 import matplotlib.pyplot as plt
-import shap
 from datetime import datetime
 
 PROJECT_DIR = Path(__file__).parent
