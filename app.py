@@ -21,8 +21,6 @@ from sklearn.model_selection import KFold, StratifiedKFold, learning_curve
 from sklearn.inspection import permutation_importance, PartialDependenceDisplay
 import seaborn as sns
 import matplotlib.pyplot as plt
-from reportlab.pdfgen import canvas
-from reportlab.lib.utils import ImageReader
 import shap
 from datetime import datetime
 
